@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+  </head>
+  <body>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">home</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="products">
+      <div class="product">
+        <img src="./images/3fJ2SA7UgR4UENViQMsWtY.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+          deleniti similique assumenda repellat obcaecati cumque harum rem
+          omnis? Aliquam accusantium aut laudantium minima dolore ab, sint minus
+          tenetur non facere!
+        </p>
+        <a href="#">buy</a>
+      </div>
+      <div class="product">
+        <img src="./images/cod_cia.0.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+          deleniti similique assumenda repellat obcaecati cumque harum rem
+          omnis? Aliquam accusantium aut laudantium minima dolore ab, sint minus
+          tenetur non facere!
+        </p>
+        <a href="#">buy</a>
+      </div>
+      <div class="product">
+        <img src="./images/cods.png" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+          deleniti similique assumenda repellat obcaecati cumque harum rem
+          omnis? Aliquam accusantium aut laudantium minima dolore ab, sint minus
+          tenetur non facere!
+        </p>
+        <a href="#">buy</a>
+      </div>
+      <div class="product">
+        <img src="./images/L5uM2EYbawa3JMcnWCXR3j-1200-80.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+          deleniti similique assumenda repellat obcaecati cumque harum rem
+          omnis? Aliquam accusantium aut laudantium minima dolore ab, sint minus
+          tenetur non facere!
+        </p>
+        <a href="#">buy</a>
+      </div>
+    </div>
+    <div class="slider">
+         <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/3fJ2SA7UgR4UENViQMsWtY.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            
+            <img src="./images/cod_cia.0.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            
+            <img src="./images/cods.png" alt="">
+          </div>
+          <div class="swiper-slide">
+    
+            <img src="./images/L5uM2EYbawa3JMcnWCXR3j-1200-80.jpg" alt="">
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <footer>
+        <div></div>
+        <div></div>
+        <div></div>
+    </footer>
+
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 0,
+        centeredSlides: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
